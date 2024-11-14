@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome - Home</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Dowload</a></li>
+            </ul>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo da Startup">
+            </div>
+            <div class="right-nav">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <a href="login.html" class="login">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Nome da Startup</h1>
+            <p>slogan a se pensar</p>
+            <div class="buttons">
+                <button onclick="navigateTo('sobre-nos')">Sobre nós</button>
+                <button onclick="navigateTo('dowload')">Dowload</button>
+                <button onclick="navigateTo('contato')">Contato</button>
+            </div>
+            <div class="image-container">
+                <img src="images/imghome.jpg" alt="Imagem Geoespacial de um Relevo">
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/home.js"></script>
+</body>
+</html>
