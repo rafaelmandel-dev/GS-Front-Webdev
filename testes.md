@@ -1,13 +1,6 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #3333332a;
-    color: rgb(19, 18, 19);
-}
-
-.logo {
-    flex: 0;
-    margin: 0 auto; /* Centraliza a logo */
-}
+<select>
+    <option value="eficiencia">Eficiência Energética</option>
+    <option value="economia">Economia de Custos</option>
+    <option value="impacto">Impacto Ambiental Positivo</option>
+    <option value="sustentabilidade">Sustentabilidade</option>
+</select>

@@ -155,7 +155,84 @@ input:checked + .slider:before{
     width: 300px;
     height: auto;
     border-radius: 10px;
-    border: 2px solid #333;
+}
+
+.problematica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.problematica .content-problematica{
+    flex: 1;
+    max-width: 60%;
+}
+
+.problematica h1{
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+}
+
+.problematica p{
+    font-size: 1.2em;
+    color: #666;
+}
+
+.problematica .image-container-problematica{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.problematica .image-container-problematica img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Secção Gente */
+.gente{
+    padding: 40px 20px;
+}
+
+.gente .content-gente{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gente h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.gente select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.gente option{
+    font-size: 1em;
+}
+
+/* Footer */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 5px 0;
 }
 
 .modal{
@@ -167,6 +244,7 @@ input:checked + .slider:before{
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
+    transition: opacity 0.03s ease;
 }
 
 .modal-content{
@@ -200,6 +278,16 @@ input:checked + .slider:before{
 
 .modal img{
     width: 200px;
+}
+
+.modal.show{
+    display: block;
+    opacity: 1;
+}
+
+.modal.hide{
+    opacity: 0;
+    pointer-events: none;
 }
 
 .close{
@@ -246,3 +334,4 @@ body.dark-mode .modal-content button{
 body.dark-mode .modal-content button:hover{
     background-color: #ddd;
 }
+

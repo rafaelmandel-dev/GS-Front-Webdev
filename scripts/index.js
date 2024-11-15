@@ -12,11 +12,13 @@ function navigateTo(section){
 
 //abrir o login e depois fechar
 function openLoginModal(){
-    document.getElementById("login-modal").style.display = "block";
+    document.getElementById("login-modal").classList.add("show");
+    document.getElementById("login-modal").classList.remove("hide");
 }
 
 function closeLoginModal(){
-    document.getElementById("login-modal").style.display = "none";
+    document.getElementById("login-modal").classList.add("hide");
+    document.getElementById("login-modal").classList.remove("show");
 }
 
 //a partir daqui e so pra tras :DDD
