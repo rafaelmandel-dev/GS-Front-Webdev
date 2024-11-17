@@ -159,19 +159,20 @@ input:checked + .slider:before{
 
 .problematica{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 40px 20px;
+    gap: 20px;
     color: #333;
 }
 
 .problematica .content-problematica{
-    flex: 1;
+    flex: 2;
+    text-align: left;
     max-width: 60%;
 }
 
 .problematica h1{
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0 0 20px 0;
 }
 
@@ -221,6 +222,86 @@ input:checked + .slider:before{
 
 .gente option{
     font-size: 1em;
+}
+
+.contato{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato h1{
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+}
+
+.contato p{
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+.contato .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+}
+
+#contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact-form label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+#contact-form input, #contact-form select, #contact-form textarea{
+    width: 100;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus{
+    border-color: #7c0eaf83;
+    outline: none
+}
+
+#contact-form textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+#contact-form button{
+    padding: 10px 15px;
+    color: #1f1f1f;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover{
+    background-color: #7c0eaf83;
 }
 
 /* Footer */
