@@ -195,33 +195,44 @@ input:checked + .slider:before{
 }
 
 /* Secção Gente */
-.gente{
-    padding: 40px 20px;
-}
-
-.gente .content-gente{
+.container-gente{
     max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .gente h1{
-    font-size: 2.5em;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.gente p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+#impact-list{
+    margin-top: 20px;
+}
+
+.impact h3{
+    margin: 0;
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.impact p{
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.impact{
     margin-bottom: 20px;
-}
-
-.gente select{
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
-    margin: 10px 0;
-    width: 100%;
-    max-width: 400px;
-}
-
-.gente option{
-    font-size: 1em;
 }
 
 .contato{
@@ -255,6 +266,7 @@ input:checked + .slider:before{
     background-color: #fff;
     max-width: 600px;
     width: 100%;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
 }
 
 #contact-form{
