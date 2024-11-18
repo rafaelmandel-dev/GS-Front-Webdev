@@ -18,18 +18,37 @@ const impactos = [
 ];
 
 const impactList = document.getElementById('impact-list');
+let currentIndex = 0;
 
-impactos.forEach(impact => {
+const renderImpactos = () => {
+    impactList.innerHTML = ''; //isso vai limpar a lista antes de adicionar os itens again
+    
     const impactDiv = document.createElement("div");
     impactDiv.classList.add("impact");
-
+    
     const title = document.createElement("h3");
-    title.textContent = impact.titulo;
+    title.textContent = impactos[currentIndex].descricao;
 
-    const description = document.createElement("p");
-    description.textContent = impact.descricao;
+    const description = document.createElement("p")
+    description.textContent = impactos[currentIndex].descricao;
+
 
     impactDiv.appendChild(title);
     impactDiv.appendChild(description);
     impactList.appendChild(impactDiv);
+};
+
+//criar um metodo de mover para o proximo "slide" e depois voltar
+const nextBtn = document.getElementById('nest-btn');
+nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % impactos.length;
+    renderImpactos();
 });
+
+const prevBtn = document.getElementById('prev-btn');
+prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + impactos.length) % impactos.length;
+    renderImpactos();
+});
+
+renderImpactos();
