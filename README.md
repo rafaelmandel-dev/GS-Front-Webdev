@@ -8,6 +8,10 @@ Este repositório contém o código fonte do projeto Guardian, uma solução vol
 - Luigi Thinego, 560755
 - Felipe Silva, 559848
 
+## Link para o Site Publicado
+
+[Clique aqui e acesse o site](#)
+
 ## Tecnologias Utilizadas
 
 **HTML5**: Estrutura semântica.
