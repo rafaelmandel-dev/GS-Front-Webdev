@@ -11,7 +11,9 @@ Este repositório contém o código fonte do projeto Guardian, uma solução vol
 ## Tecnologias Utilizadas
 
 **HTML5**: Estrutura semântica.
+
 **CSS3**: Estilização com design moderno e responsivo.
+
 **JavaScript ES6**: Renderização dinâmica de conteúdo na página
 
 ## Funcionalidades
@@ -39,11 +41,6 @@ O projeto apresenta os seguintes impactos:
 
     - Promoção do acesso à energia em áreas remotas.
     - Apoio ao desenvolvimento local.
-
-### Renderização Dinâmica
-
-    - Um array de objetos é utilizado para armazenar os dados dos impactos.
-    - O JavaScript gera automaticamente os elementos HTML para exibição.
 
 ### Estilo Moderno
 
