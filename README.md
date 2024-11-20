@@ -8,9 +8,11 @@ Este repositório contém o código fonte do projeto Guardian, uma solução vol
 - Luigi Thinego, 560755
 - Felipe Silva, 559848
 
-## Link para o Site Publicado
+## Link para o Site Publicado e FIGMA do projeto
 
 [Clique aqui e acesse o site](#)
+
+[Clique aqui e acesse o nosso FIGMA](https://www.figma.com/design/s1CJVREDemVlqvmTYtJjjs/Global-Solution?node-id=0-1&t=RiybPtYo5tk93chh-1)
 
 ## Tecnologias Utilizadas
 
