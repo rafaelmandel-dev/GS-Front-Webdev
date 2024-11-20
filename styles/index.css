@@ -220,7 +220,7 @@ input:checked + .slider:before{
 /* Secção Gente */
 .container-gente{
     max-width: 800px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 20px;
     background: var(--bg);
     border-radius: 8px;
@@ -284,6 +284,7 @@ input:checked + .slider:before{
 
 .contato{
     padding: 20px 20px 40px 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
