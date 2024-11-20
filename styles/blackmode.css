@@ -1,0 +1,179 @@
+body.dark-mode{
+    background-color: #121212;
+    color: var(--bg);
+}
+
+body.dark-mode header{
+    background-color: var(--text);
+}
+
+body.dark-mode header nav ul li a{
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body.dark-mode header nav ul li a:hover{
+    color: var(--dpurple);
+}
+
+body.dark-mode .buttons button{
+    color: var(--bg);
+    border-color: var(--bg);
+}
+
+body.dark-mode .buttons button:hover{
+    background-color: var(--purple);
+}
+
+body.dark-mode .modal-content{
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .modal-content button{
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+body.dark-mode .modal-content button:hover{
+    background-color: #ddd;
+}
+
+body.dark-mode .login{
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body.dark-mode .login:hover{
+    color: var(--dpurple);
+}
+
+body.dark-mode .hero {
+    color: var(--text);
+}
+
+body.dark-mode .hero h1 {
+    color: var(--purple);
+}
+
+body.dark-mode .hero p {
+    color: var(--bg);
+}
+
+body.dark-mode .problematica {
+    color: var(--text);
+}
+
+body.dark-mode .problematica h1 {
+    color: var(--purple);
+}
+
+body.dark-mode .problematica p {
+    color: var(--bg);
+}
+
+body.dark-mode .container-gente {
+    background-color: #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: var(--text);
+}
+
+body.dark-mode .container-gente h1{
+    color: var(--purple);
+} 
+
+body.dark-mode .container-gente h3{
+    color: var(--lpurple);
+} 
+
+body.dark-mode .container-gente p{
+    color: var(--bg);
+}
+
+body.dark-mode .carousel-buttons button {
+    background-color: var(--purple);
+    color: var(--text);
+}
+
+body.dark-mode .carousel-buttons button:hover {
+    background-color: var(--dpurple);
+    color: #121212;
+}
+
+body.dark-mode .contato {
+    color: var(--text);
+}
+
+body.dark-mode .contato p{
+    color: var(--bg);
+}
+
+body.dark-mode .form-container{
+    background-color: #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: var(--bg);
+}
+
+body.dark-mode #contact-form input,
+body.dark-mode #contact-form select,
+body.dark-mode #contact-form textarea {
+    background-color: #121212;
+    color: var(--bg);
+    border: 1px solid var(--gray);
+}
+
+body.dark-mode #contact-form input:focus,
+body.dark-mode #contact-form select:focus,
+body.dark-mode #contact-form textarea:focus {
+    border-color: var(--lpurple);
+}
+
+body.dark-mode #contact-form button {
+    background-color: transparent;
+    color: var(--bg);
+}
+
+body.dark-mode #contact-form button:hover {
+    background-color: var(--lpurple);
+    color: var(--text);
+}
+
+body.dark-mode footer {
+    background-color: var(--text);
+    color: var(--text);
+}
+
+body.dark-mode footer p {
+    color: var(--bg);
+}
+
+body.dark-mode .switch .slider {
+    background-color: var(--gray);
+}
+
+body.dark-mode .switch input:checked + .slider {
+    background-color: var(--purple);
+}
+
+body.dark-mode .modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .close {
+    color: var(--lpurple);
+}
+
+body.dark-mode .close:hover {
+    color: var(--purple);
+}
+
+body.dark-mode a {
+    color: var(--lpurple);
+    text-decoration: none;
+}
+
+body.dark-mode a:hover {
+    color: var(--purple);
+}

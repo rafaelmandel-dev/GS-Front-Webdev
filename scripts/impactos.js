@@ -27,7 +27,7 @@ const renderImpactos = () => {
     impactDiv.classList.add("impact");
     
     const title = document.createElement("h3");
-    title.textContent = impactos[currentIndex].descricao;
+    title.textContent = impactos[currentIndex].titulo;
 
     const description = document.createElement("p")
     description.textContent = impactos[currentIndex].descricao;

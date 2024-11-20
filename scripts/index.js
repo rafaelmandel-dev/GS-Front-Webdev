@@ -22,6 +22,8 @@ function closeLoginModal(){
 }
 
 //a partir daqui e so pra tras :DDD
+//legal q to aqui 3 dias depois e to tentando entender pq eu comentei isso sendo que eu n ia entender o pq e no final das contas eu me perdi noq seria esse codigo aqui embaixo
+//att: me lembrei q era o de login :DDD
 function handleLogin(event){
     event.preventDefault();
 

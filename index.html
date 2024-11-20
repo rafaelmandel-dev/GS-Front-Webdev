@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Guardian</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/blackmode.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
     
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Benefícios</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
         <div class="logo">
             <img src="images/logo.png" alt="Logo da Startup">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#somos">Sobre nós</a></li>
+                <li><a href="#gente">Benefícios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
         <div class="right-nav">
             <label class="switch">
                 <input type="checkbox" id="theme-toggle">
@@ -34,11 +35,11 @@
         <section class="hero">
             <div class="content">
                 <h1>Guardian</h1>
-                <p>A guardia da energia sustentavel no Brasil</p>
+                <p>A guardiã da energia sustentavel no Brasil</p>
                 <div class="buttons">
-                    <button onclick="navigateTo('sobre-nos')">Sobre nós</button>
-                    <button onclick="navigateTo('dowload')">Benefícios</button>
-                    <button onclick="navigateTo('contato')">Contato</button>
+                    <button onclick="navigateTo('#somos')">Sobre nós</button>
+                    <button onclick="navigateTo('#gente')">Benefícios</button>
+                    <button onclick="navigateTo('#contato')">Contato</button>
                 </div>
             </div>
             <div class="image-container">
@@ -46,19 +47,19 @@
             </div>
         </section>
 
-        <section class="problematica">
+        <section class="problematica" id="somos">
             <div class="content-problematica">
+                <h1>Quem somos?</h1>
+                <p>A Guardian enfrenta o desafio da ineficiência na produção energética, causada pela falta de adaptação às características regionais. Muitas vezes, a escolha das fontes de energia não considera fatores como clima, relevo e emissão solar, resultando em soluções ineficazes e custos elevados. Nossa solução é um software que utiliza geolocalização e dados ambientais para recomendar a fonte de energia renovável mais adequada para cada local. Com isso, maximizamos a eficiência energética, reduzimos custos e promovemos um impacto ambiental positivo, adaptando a produção energética às necessidades específicas de cada região.</p>
                 <div class="image-container-problematica">
                     <img src="images/eolica-solar.jpg" alt="Imagem de geracao de energia eolica">
                 </div>
-                <h1>a</h1>
-                <p>A Guardian enfrenta o desafio da ineficiência na produção energética, causada pela falta de adaptação às características regionais. Muitas vezes, a escolha das fontes de energia não considera fatores como clima, relevo e emissão solar, resultando em soluções ineficazes e custos elevados. Nossa solução é um software que utiliza geolocalização e dados ambientais para recomendar a fonte de energia renovável mais adequada para cada local. Com isso, maximizamos a eficiência energética, reduzimos custos e promovemos um impacto ambiental positivo, adaptando a produção energética às necessidades específicas de cada região.</p>
             </div>
         </section>
 
-        <section class="gente">
+        <section class="gente" id="gente">
             <div class="container-gente">
-                <h1>Porque escolher a Guardian?</h1>
+                <h1>Por que escolher a Guardian?</h1>
                 <p>Soluções sustentáveis para energia renovável e eficiência energética que você só encontra aqui</p>
                 <div id="impact-list" class="carousel-container">
 
@@ -70,7 +71,7 @@
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <h1>Gostou do nosso trabalho?</h1>
             <p>Nos contate e seja um dos nossos parceiros ou tire suas duvidas aqui</p>
             <div class="form-container">
