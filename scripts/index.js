@@ -29,11 +29,25 @@ function handleLogin(event){
 
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
+    const loginButton = document.querySelector(".login");
 
     if (username === "admin" && password === "admin"){
         alert("Login efetuado com sucesso");
-        window.location.href = "home.html"
+        closeLoginModal();
+
+        //isso daqui vai torcar o nome login por "sair"
+        loginButton.textContent = "Sair";
+        loginButton.onclick = handleLogout;
     } else{
         alert("Usuario ou senha incorretos");
     }
+}
+
+//funcao logout
+function handleLogout(){
+    const loginButton = document.querySelector(".login");
+
+    alert("Voce foi gapado")
+    loginButton.textContent = "Login";
+        loginButton.onclick = openLoginModal;
 }
