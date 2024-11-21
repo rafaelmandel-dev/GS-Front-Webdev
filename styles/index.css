@@ -65,6 +65,10 @@ header nav ul li a:hover{
     gap: 20px;
 }
 
+.right-nav img{
+    height: 64px;
+}
+
 /* switch do modo escuro (sera que funciona dessa vez?) */
 .switch{
     position: relative;

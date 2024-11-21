@@ -24,6 +24,20 @@ function closeLoginModal(){
 //a partir daqui e so pra tras :DDD
 //legal q to aqui 3 dias depois e to tentando entender pq eu comentei isso sendo que eu n ia entender o pq e no final das contas eu me perdi noq seria esse codigo aqui embaixo
 //att: me lembrei q era o de login :DDD
+
+document.addEventListener("DOMContentLoaded", () => {
+    const loginButton = document.querySelector(".login");
+    const isLoggedIn = localStorage.getItem("loggedIn") === "true";
+
+    if(isLoggedIn){
+        loginButton.textContent = "Sair"
+        loginButton.onclick = handleLogout;
+    } else{
+        loginButton.textContent = "Login";
+        loginButton.onclick = openLoginModal;
+    }
+});
+
 function handleLogin(event){
     event.preventDefault();
 
@@ -38,6 +52,7 @@ function handleLogin(event){
         //isso daqui vai torcar o nome login por "sair"
         loginButton.textContent = "Sair";
         loginButton.onclick = handleLogout;
+        localStorage.setItem("loggedIn", "true");
     } else{
         alert("Usuario ou senha incorretos");
     }
@@ -47,7 +62,8 @@ function handleLogin(event){
 function handleLogout(){
     const loginButton = document.querySelector(".login");
 
-    alert("Voce foi gapado")
+    alert("Voce foi Deslogado!")
     loginButton.textContent = "Login";
-        loginButton.onclick = openLoginModal;
+    loginButton.onclick = openLoginModal;
+    localStorage.setItem("loggedIn", "false");
 }
